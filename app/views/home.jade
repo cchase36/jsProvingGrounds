@@ -1,0 +1,20 @@
+extends layout
+
+block content
+    include topNav.jade
+    div.mainContent
+        div.blogPost
+            h1.blogTitle Hello world!
+            i.blogImage(src)
+            div.blogBody
+                p Sooooo.... Don't really know how to start a website/blog, but here we go. The idea for this site is to take a simple websit (a blog for this experiment), and reproduce it many times utilizing different JavaScript frameworks. Before you say it, I know. This completely violates the DRY principle... But whatever, it's my idea and I'm sticking to it.
+                p My first goal is to just make a base website and blog that I can use to track progress, and put random ramblings along the way. To do this, I will be using a tech stack I am already familiar with:
+                ul
+                    li Backbone.js
+                    li Underscore.js
+                    li jQuery
+                    li Require.js
+                p These frameworks will serve as my baseline, and will be what I compare every other framework I test out here to. Let me start by outlining what I think are the strengths of these JavaScript Libraries...
+                i(src="/images/backbone.png")
+
+    script(src="/javascripts/home.min.js")
